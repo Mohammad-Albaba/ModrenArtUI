@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    >
+<TextView
+    android:textColor="@color/design_default_color_on_primary"
+    android:background="@color/design_default_color_primary"
+    android:textSize="20sp"
+    android:text="Inspired by the work of artist PIET MONDRIAN"
+    android:maxLines="5"
+    android:lines="2"
+    android:padding="16dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/design_default_color_on_primary"
+        android:background="@color/design_default_color_primary"
+        android:textSize="20sp"
+        android:text="Click VISIT MOMA to see more!"
+        android:maxLines="5"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_on_primary"
+        android:orientation="horizontal"
+       >
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/textnot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="NOT NOW"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/textvisit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="VISIT MOMA"
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
